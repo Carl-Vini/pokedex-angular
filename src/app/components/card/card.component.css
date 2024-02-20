@@ -1,0 +1,18 @@
+.card-container {
+    width: 160px;
+    height: 250px;
+    border: 2px solid black;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 80px;
+}
+
+.card__stats__type {
+    background-color: aqua;
+    padding: 6px ;
+    border-radius: 20px;
+}
