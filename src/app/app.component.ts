@@ -7,8 +7,11 @@ import { CardComponent } from './components/card/card.component';
   standalone: true,
   imports: [RouterOutlet, CardComponent],
   template: `
+  <div>
     <app-card></app-card>
-    <router-outlet />
+    <app-card/>
+  </div>
+  <router-outlet />
 `,
   styleUrl: './app.component.css'
 })
